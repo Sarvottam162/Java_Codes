@@ -2,7 +2,7 @@
 public class x_pow_n {
     public static void main(String[] args) {
         int x = 4;
-        int n = 4;
+        int n = 8;
         int res = power(x,n);
         int res2 = powerOptimize(x,n);
         System.out.println(res2);
