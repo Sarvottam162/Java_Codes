@@ -14,8 +14,8 @@ public class Basic {
             return;
         }
         arr[i] = val;
-        changeArr(arr, i+1, val+1);
-        arr[i] = arr[i] - 2;
+        changeArr(arr, i+1, val+1); // fn call step
+        arr[i] = arr[i] - 2; // backtracking step
     }
 
      //print arr
